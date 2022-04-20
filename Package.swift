@@ -15,9 +15,8 @@ let package = Package(
     targets: [
         .target(
             name: "Hakawai",
-            dependencies: [],
             path: "Hakawai",
-            publicHeadersPath: "",
+            publicHeadersPath: "Public",
             cSettings: [
                 .headerSearchPath("Core"),
                 .headerSearchPath("Core/AbstractionLayer"),
